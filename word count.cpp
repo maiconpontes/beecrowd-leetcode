@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+g#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -10,7 +10,7 @@ int main() {
 
     getline(cin, s);
     for (int i = 0; i < s.length(); i++) {
-        if (s[i] == ' ') {
+        if (s[i] == ' ' && s[i+!] != ' ') {
             words++;
         }
     }
