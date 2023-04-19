@@ -24,18 +24,18 @@ int main() {
 }
 
         // inverte
-      
+        string s_inv(t, ' ');
         for(int j = 0; j < t; j++) {
-            s[j] = s2[t-j-1];
+            s_inv[j] = s2[t-j-1];
         }
     
         // 1 para esquerda
         for(int k = h; k < t; k++) {
-            s[k] = s[k] -1;
+            s_inv[k] = s_inv[k] -1;
         }
 
         for(int j = 0; j < t; j++) {
-            cout << s[j];
+            cout << s_inv[j];
         }
         cout << endl;
     }
